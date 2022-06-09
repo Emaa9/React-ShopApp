@@ -1,0 +1,50 @@
+.all{
+    max-width: 100%;
+    margin-left: 4.5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 4rem;
+    width: 400px;
+    background: linear-gradient(rgb(10, 54, 54), #577);
+    border-radius: 1rem;
+}
+
+.img1{
+    width: 250px;
+    height:250px;
+    margin-top: 4rem;
+    padding: 0.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(209, 185, 185, 0.2), 0 6px 20px 0 rgba(241, 227, 227, 0.19);
+}
+.content{
+   padding-bottom: 2rem;
+   padding-top: 2rem;
+   margin-right: 5rem;
+   margin-left: 5rem;
+   margin-bottom: 0;
+   margin-top: 0.5rem;
+   padding-left: 1rem;
+   color: white;
+}
+
+.price{
+    background-color: blanchedalmond;
+    color: black;
+    margin-right: 25px;
+}
+.title{
+    font-size: 15px;
+    font-family:cursive;
+    padding-bottom: 0.5rem;
+    text-align:left;
+   }
+.meta{
+  margin-top: 1rem;
+  margin-bottom: 0;
+  margin-left: 18rem;
+  font-size: 12px;
+}

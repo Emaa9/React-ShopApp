@@ -1,0 +1,104 @@
+
+.segment{
+    display: flex;
+    width: 900px;
+    height: 644px;
+    margin:auto;
+    padding-top: 5rem;
+    background: linear-gradient(rgb(181, 215, 170),rgb(187, 153, 153));
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+
+}
+.img2{
+    width: 260px;
+    height: 260px;
+    margin-left: 8rem;
+    border-radius: 1rem;
+    margin-top: 7rem;
+}
+.column{
+    width: 380px;
+    height:350px;
+    margin-top: 4rem;
+    background: linear-gradient(rgb(10, 54, 54), #577);
+    margin-left: 2rem;
+    margin-right: 7rem;
+}
+.description{
+    font-size: 15px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+   color: rgb(249, 244, 244);
+   text-align: center;
+   
+}
+.category2{
+    font-size: 12px;
+    margin-left: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.price2{
+    font-size: 17px;
+    background: linear-gradient(rgb(229, 193, 62), black);
+      width: 100px;
+     margin-left: 160px;
+     color: rgb(244, 236, 236);
+     border-radius: 0.5rem; 
+}
+.title2{
+    text-align:left;
+    font-size: 14px;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+    color: white;
+    
+}
+
+@media screen and (max-width: 780px){
+    .segment{
+        display: flex;
+        width: 450px;
+        height: 400px;
+        margin:auto;
+        padding-top: 4rem;
+        background: linear-gradient(rgb(181, 215, 170),rgb(187, 153, 153));
+        margin-top: 11rem;
+        margin-bottom: 18rem;
+    }
+    .img2{
+        max-width: 200px;
+        height: 250px;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        border-radius: 1rem;
+        margin-top: 2rem;
+        padding-bottom: 5rem;
+    }
+    .column{
+        width: 410px;
+        height:300px;
+        margin-top: 0.1rem;
+        background: linear-gradient(rgb(10, 54, 54), #577);
+        margin-left: 2rem;
+        margin-right: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 1rem;
+        overflow-x: auto;
+    }
+    
+.price2{
+    font-size: 17px;
+    background: linear-gradient(rgb(229, 193, 62), black);
+    width: 100px;
+    margin-right: 2rem;
+    margin-left: 6.5rem;
+     color: rgb(244, 236, 236);
+     border-radius: 0.5rem; 
+}
+
+}
