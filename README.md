@@ -5,6 +5,6 @@ another server and show that information on my web site. For creating the web si
 
 How to start this web site:
 
-Step1. You should install node_modules with this command npm i
+Step1. You should install node_modules with this command: npm i
 
-Step2. To start this web site you should use npm start
+Step2. To start this web site you should use: npm start
